@@ -1,0 +1,16 @@
+[project]
+name = "epassi-lunch-statistics"
+version = "0.1.0"
+description = "Script for visualizing lunch place statistics"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "matplotlib>=3.10.0",
+    "pandas>=2.2.3",
+]
+
+[dependency-groups]
+dev = [
+    "black>=24.10.0",
+    "isort>=5.13.2",
+]
